@@ -1,0 +1,51 @@
+@font-face 
+{
+    font-family: "3270";
+    src: url('/fonts/3270_regular.ttf') format('truetype');
+}
+
+html 
+{
+    font-family: "3270";
+    background-color: #16181c;
+    display: flex;
+    justify-content: center;
+}
+
+h1 
+{
+    color: #6e45b0;
+}
+
+a:link 
+{
+    color: #39ff14;
+}
+
+a:visited 
+{
+    color: #10690f;
+}
+
+a:hover
+{
+    color: #39a337;
+}
+
+a:active 
+{
+    color: #ededed;
+}
+
+.links 
+{
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+p, .links
+{
+    color: whitesmoke;
+}
