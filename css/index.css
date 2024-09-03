@@ -4,6 +4,11 @@
     src: url('/fonts/3270_regular.ttf') format('truetype');
 }
 
+.highlight
+{
+    color: #00caed;   
+}
+
 html 
 {
     font-family: "3270";
@@ -19,17 +24,17 @@ h1
 
 a:link 
 {
-    color: #39ff14;
+    color: #00caed;
 }
 
 a:visited 
 {
-    color: #10690f;
+    color: #00caed;
 }
 
 a:hover
 {
-    color: #39a337;
+    color: #003cff;
 }
 
 a:active 
@@ -45,7 +50,12 @@ a:active
     margin-top: 50px;
 }
 
-p, .links
+p, .links, li
 {
     color: whitesmoke;
+}
+
+li 
+{
+    margin-bottom: 5vh;
 }
