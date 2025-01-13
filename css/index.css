@@ -9,6 +9,23 @@
     color: #00caed;   
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.header img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
 html 
 {
     font-family: "3270";
