@@ -1,11 +1,20 @@
-@font-face 
-{
+@font-face {
     font-family: "3270";
     src: url('/fonts/3270_regular.ttf') format('truetype');
 }
 
-.highlight
-{
+.lines::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: repeating-linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.1) 0.5%, transparent 1%);
+    pointer-events: none;
+  }
+
+.highlight {
     color: #00caed;   
 }
 
@@ -26,53 +35,45 @@
     margin: 0;
 }
 
-html 
-{
+html {
     font-family: "3270";
-    background-color: #16181c;
+    /*background-color: #16181c;*/
+    background-color: black;
     display: flex;
     justify-content: center;
 }
 
-h1 
-{
+h1 {
     color: #6e45b0;
 }
 
-a:link 
-{
+a:link {
     color: #00caed;
 }
 
-a:visited 
-{
+a:visited {
     color: #00caed;
 }
 
-a:hover
-{
+a:hover {
     color: #003cff;
 }
 
-a:active 
-{
+a:active {
     color: #ededed;
 }
 
-.links 
-{
+.links {
     display: flex; 
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 50px;
 }
 
-p, .links, li
-{
+p, .links, li {
     color: whitesmoke;
 }
 
-li 
-{
+li {
     margin-bottom: 5vh;
 }
